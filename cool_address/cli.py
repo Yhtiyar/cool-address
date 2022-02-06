@@ -28,13 +28,13 @@ def main():
     print(
         to_checksum_address(
             mk_contract_address(
-                to_checksum_address("0xeba757ceac281d9de85b768ef4b9e1992c41ea7f"), 64
+                to_checksum_address("0xf857be06f23d2efb5bdc2916d07b302a875b6d2f"), 0
             )
         )
     )
 
     bruteforce_contract_addresses(
-        "0xeba757ceac281d9de85b768ef4b9e1992c41ea7f", 64, 10000
+        "0xf857be06f23d2efb5bdc2916d07b302a875b6d2f", 0, 10000
     )
 
 
